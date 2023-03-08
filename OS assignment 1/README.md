@@ -55,7 +55,6 @@ then go to the end of the file and add the prototype of the function you created
 Now we have to add our roll number at the extraversion of the kernels make file and we have to add the new module that we created into out kerrnels make file.  
 For this, we open the Makefile of the kernel. After changing the extraversion do ctrl F and find core-y and go on its second instance which is under KBUILD_EXTMOD and add our new module hello.    
 **"gedit Makefile"**  
-![image](https://user-images.githubusercontent.com/104616632/223102953-49c3b9a3-60b0-4ba1-99ec-767e0f3eeb29.png)  
 # Now we have to  create a config for our kernel:  
 **“ls /boot | grep config”** 
 **"pwd"**  Copy the path 
@@ -75,3 +74,6 @@ after that shutdown and while restart press shift.
 **" shutdown -r now "**  
 # Output:  
 ![image](https://user-images.githubusercontent.com/104616632/223105300-f5bb3da5-1dd0-4f4d-b033-073273f916f9.png)  
+![image](https://user-images.githubusercontent.com/104616632/223811802-38be5132-d1ba-4518-aa80-724e5d1436c8.png)
+
+![image](https://user-images.githubusercontent.com/104616632/223102953-49c3b9a3-60b0-4ba1-99ec-767e0f3eeb29.png)  
