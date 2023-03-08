@@ -32,7 +32,9 @@ c. Printk is used instead of printf because we are going to print in the kernelâ
 d. If the code is run and it returns 0, then it will mean that our program ran successfully and Hello world is written to out kernelâ€™s log file.  
 # Creating a Makefile for the C code:  
 Creating a make file by using the following command:  
-**gedit Makefile**  
+**gedit Makefile**   
+![image](https://user-images.githubusercontent.com/104616632/223810797-4895b42b-c7d9-4ee4-a95b-6a1a8d583d52.png)
+
 and then add the following lines  
 **obj-y :=heelo.o**  
 ![image](https://user-images.githubusercontent.com/104616632/223099463-fe83ebd5-991f-4fc8-b60b-78409f58125a.png)  
